@@ -29,6 +29,7 @@ RUN apt-get update && apt-get install -y \
     xorg-dev \
     xvfb \
     gstreamer1.0-plugins-bad \
+    libwebkit2gtk-4.0-dev \
     libgcr-3-dev
 
 # Install the surf browser
