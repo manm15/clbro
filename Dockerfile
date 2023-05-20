@@ -29,9 +29,7 @@ RUN apt-get update && apt-get install -y \
     xorg-dev \
     xvfb \
     gstreamer1.0-plugins-bad \
-    gcr-3 \
-    libwebkit2gtk-4.0-dev \
-    libglib2.0-dev
+    libgcr-3-dev
 
 # Install the surf browser
 RUN curl -L https://dl.suckless.org/surf/surf-2.1.tar.gz | tar zxv && cd surf-2.1 && make && make install
