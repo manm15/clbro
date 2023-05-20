@@ -31,7 +31,7 @@ RUN apt-get update && apt-get install -y \
     gstreamer1.0-plugins-bad
 
 # Install the surf browser
-RUN curl -L https://surf.suckless.org/files/surf-2.1.tar.gz | tar zxv && cd surf-2.1 && make && make install
+RUN curl -L https://dl.suckless.org/surf/surf-2.1.tar.gz | tar zxv && cd surf-2.1 && make && make install
 
 # Set up the browser
 RUN mkdir -p /usr/local/bin
